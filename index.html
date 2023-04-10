@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- chamando o ícone na aba do navegador -->
+  <link rel="shortcut icon" href="./img/foto-perfil.png">
+  <!-- tag para inserirmos icones de uma lib externa no nosso HTML -->
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+</head>
+
+<body>
+  <!-- cabeçalho da nossa página, visível ao usuário -->
+  <header class="header-menu">
+    <nav>
+      <ul class="lista-menu">
+        <li><a href="#formacao">Formação</a> </li>
+        <li><a href="#portifolio">Portfólio</a></li>
+        <li><a href="#contato">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- corpo da nossa página, visível ao usuário -->
+  <main>
+    <section class="principal">
+      <article class="subcontainer-principal container">
+        <div>
+          <img src="img/logo.png">
+        </div>
+        <div>
+          <h1 class="nome-completo">Késia Salgado</h1>
+          <h2 class="profissao">Estudante de tecnologia e Weelness</h2>
+        </div>
+        <div class="texto-sobre">
+          <p>
+            Atuo há 15 anos como vendedora em diversas áreas de atacado e varejo, e há 7 anos me dedico
+            ao mercado tecnológico do wellness.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- O ID é a forma de conectar nossa barra de navegação a esse trecho do código -->
+    <section id="formacao">
+      <article class="container article-lista">
+        <div>
+          <h3 class="topico-principal">Formação</h3>
+        </div>
+
+        <div class="lista-item">
+          <ul>
+            <li>
+              <p class="lista-titulo">Ciclo formativo</p>
+              <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab Olabi</a>
+              <p class="lista-descricao">
+               Curso Pretalab formação técnica em introdução a lógica d eprogramação, HTML5 e CSS.
+              </p>
+            </li>
+       
+      </article>
+    </section>
+
+    <section id="portfolio">
+        <article class="container article-lista">
+          <div>
+            <h3 class="topico-principal">Portfólio</h3>
+          </div>
+  
+          <div class="lista-item">
+            <ul>
+              <li>
+                <p class="lista-titulo">Quem sou eu</p>
+                <a href="https://www.ladolceta.com.br/pagina/quem-somos.html" target="_blank" class="lista-local">Projeto site</a>
+                <p class="lista-descricao">
+                    Sou apaixonada por sociedade, wellness e como nos comunicamos diante a partir da nossa sexualidade.
+                    Ao longo dos anos, aprofundei meu conhecimento em sextech e wellnes e desenvolvi meu próprio projeto que atende a comunidade LGBTQIA+.
+                    Além disso  desenvolvi um estilo próprio para integrar a pauta da sexualidade através da confeitaria afrodisíaca, trazendo uma forma de expressão criativa e uma maneira de cuidar do corpo e da mente.                </p>
+              </li>
+         
+        </article>
+      </section>
+  </main>
+
+  <!-- rodapé da nossa página, visível ao usuário -->
+  <footer class="rodape">
+    <div class="container">
+      <ul id="contato" class="lista-rodape">
+        <li><i class="fas fa-envelope-square estiloIcone"></i>
+            <a href="kesia.salgado@gmail.com" target="_blank">kesia.salgado@gmail.com</a>
+          </li>
+          <li><i class="fab fa-linkedin estiloIcone"></i>
+            <a href="https://br.linkedin.com/in/kesia-salgado-413b04199" target="_blank">Késia Salgado</a>
+          </li>
+          <li><i class="fab fa-github-square estiloIcone"></i>
+            <a href="https://github.com/kesia-salgado" target="_blank">Kesia-Salgado/a>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+
+</html>
